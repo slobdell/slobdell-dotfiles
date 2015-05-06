@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/slobdell/projects/HearsayLabs/fanmgmt/content/api_v1/tests'
+let g:netrw_dirhist_2='/home/slobdell/projects/HearsayLabs/fanmgmt/content/libraries'
+let g:netrw_dirhist_3='/home/slobdell/projects/HearsayLabs/fanmgmt/content/api_v1/views'
+let g:netrw_dirhist_4='/home/slobdell/projects/HearsayLabs/fanmgmt/content/urls'
+let g:netrw_dirhist_5='/home/slobdell/projects/HearsayLabs/fanmgmt/content/models'
+let g:netrw_dirhist_6='/home/slobdell/projects/HearsayLabs/fanmgmt/lifeevents/tests'
+let g:netrw_dirhist_7='/home/slobdell/projects/HearsayLabs/fanmgmt/assets/urls'
+let g:netrw_dirhist_8='/home/slobdell/projects/HearsayLabs/fanmgmt/linkedin'
