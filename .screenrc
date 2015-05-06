@@ -1,0 +1,14 @@
+escape ^oa
+autodetach on
+startup_message off
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+
+screen -t 'misc'
+screen -t 'celery'
+screen -t 'tests'
+screen -t 'hacking'
+screen -t 'commands'
+screen -t 'shell'
