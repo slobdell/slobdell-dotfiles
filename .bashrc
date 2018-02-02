@@ -113,18 +113,8 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\
 #            slobdell        @  pnw-dev-slobdell ~/mydirectory  (summarize_endpoint) $ vim ~/.bashrc
 #
 
-alias rebase="git fetch upstream; git rebase upstream/master"
-alias sbldebug="clear; python ~/customDebug.py; tail -f ~/debug.txt"
-alias fanmgmt="cd /home/slobdell/projects/HearsayLabs/fanmgmt"
-alias cleanup="kill -9 `ps -u $USER | grep 'screen\|celery' | awk '{print $1}' | grep -v PID`"
-alias restart_services="sudo service uwsgi restart; sudo service nginx restart"
-alias import_errors="sudo tail -f /var/log/upstart/uwsgi.log"
-alias edit_ipython="vim /home/slobdell/.ipython/profile_default/startup/init.py"
-alias celery_pids="ps -u $USER | grep 'celery' | awk '{print $1}' | grep -v PID"
-alias my_shell="./run.sh manage.py shell --organization=1 --settings=settings.slobdell"
 
 # SBL adding some stuff to try and fix colors?
 export TERM=xterm-256color
 
-# SBL hack to fix weird import error
-export PYTHONPATH="/home/slobdell/projects/HearsayLabs/fanmgmt/settings/:$PYTHONPATH"
+source ~/.git-prompt.sh
